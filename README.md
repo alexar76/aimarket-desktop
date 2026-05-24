@@ -47,7 +47,7 @@ Fresh interview question banks for your target company — micropay per bank ins
 
 | | |
 |:---:|:---|
-| ![Interview Prep Coach](apps/interview-prep-coach/assets/screenshots/prep-dashboard.png) | **Economy:** **Buyer** — invokes LLM-generated question packs from the hub. **Optional supply** — sell anonymized prep patterns. **Privacy:** answers never leave device by default. |
+| ![Interview Prep Coach](interview-prep-coach/assets/screenshots/prep-dashboard.png) | **Economy:** **Buyer** — invokes LLM-generated question packs from the hub. **Optional supply** — sell anonymized prep patterns. **Privacy:** answers never leave device by default. |
 
 ---
 
@@ -57,7 +57,7 @@ Local-first budgeting: bank CSV stays on your machine; categorization and tax ru
 
 | | |
 |:---:|:---|
-| ![Personal Finance Coach](apps/personal-finance-coach/assets/screenshots/overview.png) | **Economy:** **Buyer** — per-invoke rules (categories, tax hints). **Privacy premium** — no cloud upload; you only pay for intelligence, not hosting. |
+| ![Personal Finance Coach](personal-finance-coach/assets/screenshots/overview.png) | **Economy:** **Buyer** — per-invoke rules (categories, tax hints). **Privacy premium** — no cloud upload; you only pay for intelligence, not hosting. |
 
 ---
 
@@ -67,7 +67,7 @@ Visual pipeline builder — connect AI blocks on a canvas, run with one wallet, 
 
 | | |
 |:---:|:---|
-| ![Capability Composer](apps/capability-composer/assets/screenshots/canvas.png) | **Economy:** **Supplier** — lists composed capabilities on the hub. **Buyer** — consumes upstream blocks when running graphs. Core **supply-side** SKU for creators. |
+| ![Capability Composer](capability-composer/assets/screenshots/canvas.png) | **Economy:** **Supplier** — lists composed capabilities on the hub. **Buyer** — consumes upstream blocks when running graphs. Core **supply-side** SKU for creators. |
 
 ---
 
@@ -77,7 +77,7 @@ Deliverability and structure checks run locally; SPF/DKIM and tone rule packs ar
 
 | | |
 |:---:|:---|
-| ![Cold Outreach Coach](apps/cold-outreach-coach/assets/screenshots/dashboard.png) | **Economy:** **Buyer** — rule packs and deliverability models. **Local-first** — letter text stays on device; spend is per rule refresh, not SaaS seat. |
+| ![Cold Outreach Coach](cold-outreach-coach/assets/screenshots/dashboard.png) | **Economy:** **Buyer** — rule packs and deliverability models. **Local-first** — letter text stays on device; spend is per rule refresh, not SaaS seat. |
 
 ---
 
@@ -87,7 +87,7 @@ Niche algorithm signals for TikTok, YouTube, Instagram — buy weekly signal pac
 
 | | |
 |:---:|:---|
-| ![Creator Algorithm Coach](apps/creator-algorithm-coach/assets/screenshots/dashboard.png) | **Economy:** **Buyer** — signal packs. **Optional supply** — anonymized creator metrics as data-capability listings. |
+| ![Creator Algorithm Coach](creator-algorithm-coach/assets/screenshots/dashboard.png) | **Economy:** **Buyer** — signal packs. **Optional supply** — anonymized creator metrics as data-capability listings. |
 
 ---
 
@@ -97,7 +97,7 @@ Radar for **unmet demand** on the marketplace — what users search for but nobo
 
 | | |
 |:---:|:---|
-| ![Discovery Prospector](apps/discovery-prospector/assets/screenshots/gaps-list.png) | **Economy:** **Demand intelligence** — reduces wasted supply. Feeds the factory loop: find gap → build SKU → list on hub. Builder-facing, not end-consumer. |
+| ![Discovery Prospector](discovery-prospector/assets/screenshots/gaps-list.png) | **Economy:** **Demand intelligence** — reduces wasted supply. Feeds the factory loop: find gap → build SKU → list on hub. Builder-facing, not end-consumer. |
 
 ---
 
@@ -107,7 +107,7 @@ Review MSAs and SOWs on-device; invoke jurisdiction-specific clause libraries fo
 
 | | |
 |:---:|:---|
-| ![Freelance Contract Reviewer](apps/freelance-contract-reviewer/assets/screenshots/dashboard.png) | **Economy:** **Buyer** — legal clause capabilities per document. **High-trust vertical** — pairs with hub safety + provenance plugins for dispute receipts. |
+| ![Freelance Contract Reviewer](freelance-contract-reviewer/assets/screenshots/dashboard.png) | **Economy:** **Buyer** — legal clause capabilities per document. **High-trust vertical** — pairs with hub safety + provenance plugins for dispute receipts. |
 
 ---
 
@@ -117,7 +117,7 @@ Trust UI for the marketplace — scores tied to **real purchases and receipts**,
 
 | | |
 |:---:|:---|
-| ![Reputation Dashboard](apps/reputation-dashboard/assets/screenshots/top-capabilities.png) | **Economy:** **Trust layer** — surfaces [aimarket-reputation](https://github.com/alexar76/aimarket-plugins) and stake bonds. Drives informed spend across all other SKUs. |
+| ![Reputation Dashboard](reputation-dashboard/assets/screenshots/top-capabilities.png) | **Economy:** **Trust layer** — surfaces [aimarket-reputation](https://github.com/alexar76/aimarket-plugins) and stake bonds. Drives informed spend across all other SKUs. |
 
 ---
 
