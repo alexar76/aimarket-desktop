@@ -137,7 +137,7 @@ Tauri app — scan repos on-device; buy fresh CVE/secret rule feeds; sell anonym
 
 | | |
 |:---:|:---|
-| ![Local Security Audit](apps/local-security-audit/docs/screens/dashboard.png) | **Economy:** **Buyer** — marketplace rule feeds. **Supplier** — list signature packs without leaking customer code. Privacy as product differentiator. |
+| *Tauri desktop — see [app README](apps/local-security-audit/README.md)* | **Economy:** **Buyer** — marketplace rule feeds. **Supplier** — list signature packs without leaking customer code. Privacy as product differentiator. |
 
 ---
 
