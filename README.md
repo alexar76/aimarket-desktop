@@ -1,3 +1,10 @@
+<!-- aicom-mirror-notice -->
+> **Mirror — read-only.**
+> The canonical source for `aimarket-desktop` lives in the AI-Factory monorepo.
+> Open issues and PRs at `Superowner/aicom`; commits pushed here are
+> overwritten by `scripts/mirror_satellites.sh` on the next sync run.
+> See `docs/repository-canonical-policy.md` for the policy.
+
 # AIMarket Desktop
 
 **Ten desktop & IDE apps — one Melos monorepo — all wired into the [AIMarket](https://github.com/alexar76/aimarket-hub) economy.**
