@@ -1,0 +1,16 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Creator Algorithm Coach",
+  "navDashboard": "Дашборд",
+  "navDiscover": "Поиск",
+  "navPublish": "Публикация",
+  "navInsights": "Инсайты",
+  "navSettings": "Настройки",
+  "settings": "Настройки",
+  "backupTitle": "Резервное копирование",
+  "exportBackup": "Экспорт сигналов",
+  "importBackup": "Импорт сигналов",
+  "backupExported": "Сохранено",
+  "backupImported": "Восстановлено",
+  "backupFailed": "Ошибка"
+}

@@ -1,0 +1,65 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  flutter-analyze:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        app:
+          - apps/interview-prep-coach
+          - apps/personal-finance-coach
+          - apps/capability-composer
+          - apps/cold-outreach-coach
+          - apps/creator-algorithm-coach
+          - apps/discovery-prospector
+          - apps/freelance-contract-reviewer
+          - apps/reputation-dashboard
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.24.x"
+          channel: stable
+
+      - name: Install dependencies
+        working-directory: ${{ matrix.app }}
+        run: flutter pub get
+
+      - name: Analyze
+        working-directory: ${{ matrix.app }}
+        run: flutter analyze
+
+  flutter-build-web:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        app:
+          - apps/interview-prep-coach
+          - apps/personal-finance-coach
+          - apps/capability-composer
+          - apps/cold-outreach-coach
+          - apps/creator-algorithm-coach
+          - apps/discovery-prospector
+          - apps/freelance-contract-reviewer
+          - apps/reputation-dashboard
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.24.x"
+          channel: stable
+
+      - name: Install dependencies
+        working-directory: ${{ matrix.app }}
+        run: flutter pub get
+
+      - name: Build web
+        working-directory: ${{ matrix.app }}
+        run: flutter build web --release

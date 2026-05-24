@@ -1,0 +1,17 @@
+name: aimarket-desktop
+repository: https://github.com/alexar76/aimarket-desktop.git
+
+packages:
+    "apps/ai-stack-migration-assistant",\n    "apps/capability-composer",\n    "apps/cold-outreach-coach",\n    "apps/creator-algorithm-coach",\n    "apps/discovery-prospector",\n    "apps/freelance-contract-reviewer",\n    "apps/interview-prep-coach",\n    "apps/local-security-audit",\n    "apps/personal-finance-coach",\n    "apps/reputation-dashboard",\n    "packages/aicom_desktop_core",\n    "packages/aicom_platform_init"
+
+command:
+  bootstrap:
+    usePubspecOverrides: true
+
+scripts:
+  analyze:
+    run: melos exec -- dart analyze
+    description: Run static analysis across all packages.
+  test:
+    run: melos exec -- dart test
+    description: Run tests across all packages.
