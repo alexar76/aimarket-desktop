@@ -7,6 +7,7 @@ import 'package:aicom_platform_init/aicom_platform_init.dart';
 import 'l10n/app_strings.dart';
 import 'src/app.dart';
 import 'src/services/marketplace_service.dart';
+import 'src/services/mock_interview_service.dart';
 import 'src/services/wallet_service.dart';
 import 'src/state/app_state.dart';
 
@@ -48,6 +49,9 @@ class InterviewPrepCoachApp extends StatelessWidget {
               hubUrl: 'https://hub.aicom.io',
               walletKey: wallet.privateKey,
             ),
+          ),
+          ProxyProvider<MarketplaceService, MockInterviewService>(
+            update: (_, market, __) => MockInterviewService(marketplace: market),
           ),
         ],
         child: const AppBootstrap(),

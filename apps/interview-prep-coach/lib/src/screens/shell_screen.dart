@@ -2,8 +2,14 @@ import 'package:aicom_desktop_core/aicom_desktop_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../config/screenshot_demo.dart';
+import '../demo/screenshot_seed.dart';
+import '../models/mock_interview_session.dart';
 import '../services/marketplace_service.dart';
+import '../services/mock_interview_service.dart';
+import '../state/app_state.dart';
 import '../widgets/marketplace_status_bar.dart';
+import 'mock_interview_screen.dart';
 
 /// Main shell screen with bottom navigation and scaffold.
 class ShellScreen extends StatefulWidget {
@@ -15,6 +21,25 @@ class ShellScreen extends StatefulWidget {
 
 class _ShellScreenState extends State<ShellScreen> {
   int _selectedIndex = 0;
+  List<MockInterviewSession> _sessions = const [];
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) => _reloadSessions());
+  }
+
+  Future<void> _reloadSessions() async {
+    if (screenshotDemo) return;
+    final sessions = await context.read<MockInterviewService>().loadHistory();
+    if (!mounted) return;
+    setState(() => _sessions = sessions);
+  }
+
+  Future<void> _openMockInterview() async {
+    final refreshed = await openMockInterview(context);
+    if (refreshed == true) await _reloadSessions();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -67,15 +92,23 @@ class _ShellScreenState extends State<ShellScreen> {
   Widget _buildBody() {
     switch (_selectedIndex) {
       case 0:
-        return const _PrepTab();
+        return _PrepTab(
+          onMockInterview: _openMockInterview,
+          onGoMarket: () => setState(() => _selectedIndex = 1),
+          sessions: _sessions,
+        );
       case 1:
         return const _MarketTab();
       case 2:
-        return const _HistoryTab();
+        return _HistoryTab(sessions: _sessions);
       case 3:
         return const _CommunityTab();
       default:
-        return const _PrepTab();
+        return _PrepTab(
+          onMockInterview: _openMockInterview,
+          onGoMarket: () => setState(() => _selectedIndex = 1),
+          sessions: _sessions,
+        );
     }
   }
 }
@@ -112,11 +145,20 @@ class _EconomicsStrip extends StatelessWidget {
 }
 
 class _PrepTab extends StatelessWidget {
-  const _PrepTab();
+  const _PrepTab({
+    required this.onMockInterview,
+    required this.onGoMarket,
+    required this.sessions,
+  });
+
+  final VoidCallback onMockInterview;
+  final VoidCallback onGoMarket;
+  final List<MockInterviewSession> sessions;
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final stats = _statsForDisplay(sessions);
     return ListView(
       padding: const EdgeInsets.all(16),
       children: [
@@ -133,10 +175,10 @@ class _PrepTab extends StatelessWidget {
         ),
         const SizedBox(height: 20),
         _HeroStatRow(
-          stats: const [
-            _StatChip(label: 'Readiness', value: '—', icon: Icons.speed),
-            _StatChip(label: 'Streak', value: '—', icon: Icons.local_fire_department),
-            _StatChip(label: 'Practice avg', value: '—', icon: Icons.star),
+          stats: [
+            _StatChip(label: 'Readiness', value: stats.readiness, icon: Icons.speed),
+            _StatChip(label: 'Streak', value: stats.streak, icon: Icons.local_fire_department),
+            _StatChip(label: 'Practice avg', value: stats.practiceAvg, icon: Icons.star),
           ],
         ),
         const SizedBox(height: 20),
@@ -149,7 +191,7 @@ class _PrepTab extends StatelessWidget {
             title: const Text('Discover Question Banks'),
             subtitle: const Text('Google SWE · Meta PM · Amazon SDE — from \$0.08/call'),
             trailing: const Icon(Icons.chevron_right),
-            onTap: () {},
+            onTap: onGoMarket,
           ),
         ),
         const SizedBox(height: 8),
@@ -159,10 +201,10 @@ class _PrepTab extends StatelessWidget {
               backgroundColor: theme.colorScheme.secondaryContainer,
               child: const Icon(Icons.record_voice_over),
             ),
-            title: const Text('Mock Interview'),
+            title: Text(context.t('mockInterview')),
             subtitle: const Text('AI simulation with TEE-verified scoring'),
             trailing: const Icon(Icons.chevron_right),
-            onTap: () {},
+            onTap: onMockInterview,
           ),
         ),
         const SizedBox(height: 8),
@@ -173,9 +215,15 @@ class _PrepTab extends StatelessWidget {
               child: const Icon(Icons.bolt),
             ),
             title: const Text('What was asked this week'),
-            subtitle: const Text('Fresh signals · 14 new reports at Google'),
-            trailing: Chip(label: Text('LIVE', style: TextStyle(color: theme.colorScheme.primary))),
-            onTap: () {},
+            subtitle: Text(
+              screenshotDemo
+                  ? 'Fresh signals · 14 new reports at Google'
+                  : 'Pull recent interview signals from the marketplace',
+            ),
+            trailing: screenshotDemo
+                ? Chip(label: Text('LIVE', style: TextStyle(color: theme.colorScheme.primary)))
+                : null,
+            onTap: onGoMarket,
           ),
         ),
       ],
@@ -183,43 +231,67 @@ class _PrepTab extends StatelessWidget {
   }
 }
 
-class _MarketTab extends StatelessWidget {
+class _MarketTab extends StatefulWidget {
   const _MarketTab();
 
-  static const _listings = [
-    _MarketListing(
-      title: 'Google SWE Interview Bank Q2',
-      seller: 'Interview Labs',
-      price: 0.10,
-      trust: 0.94,
-      fresh: '2h ago',
-    ),
-    _MarketListing(
-      title: 'Meta Behavioral Patterns 2026',
-      seller: 'Prep Collective',
-      price: 0.08,
-      trust: 0.91,
-      fresh: '6h ago',
-    ),
-    _MarketListing(
-      title: 'System Design — Fintech',
-      seller: 'ArchPrep',
-      price: 0.15,
-      trust: 0.88,
-      fresh: '1d ago',
-    ),
-    _MarketListing(
-      title: 'Amazon Leadership Principles',
-      seller: 'CareerForge',
-      price: 0.12,
-      trust: 0.90,
-      fresh: '3h ago',
-    ),
-  ];
+  @override
+  State<_MarketTab> createState() => _MarketTabState();
+}
+
+class _MarketTabState extends State<_MarketTab> {
+  bool _loading = false;
+  String? _error;
+
+  @override
+  void initState() {
+    super.initState();
+    if (!screenshotDemo) {
+      WidgetsBinding.instance.addPostFrameCallback((_) => _discover());
+    }
+  }
+
+  Future<void> _discover() async {
+    final app = context.read<AppState>();
+    final company = app.targetCompany;
+    final role = app.targetRole;
+    if (company == null || role == null) return;
+    setState(() {
+      _loading = true;
+      _error = null;
+    });
+    try {
+      await context.read<MarketplaceService>().discoverInterviewQuestions(
+            company: company,
+            role: role,
+          );
+    } catch (e) {
+      _error = e.toString();
+    } finally {
+      if (mounted) setState(() => _loading = false);
+    }
+  }
+
+  List<_MarketListing> get _listings {
+    if (screenshotDemo) {
+      return ScreenshotSeed.marketListings
+          .map(
+            (l) => _MarketListing(
+              title: l.title,
+              seller: l.seller,
+              price: l.price,
+              trust: l.trust,
+              fresh: l.fresh,
+            ),
+          )
+          .toList();
+    }
+    return const [];
+  }
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final listings = _listings;
     return ListView(
       padding: const EdgeInsets.all(16),
       children: [
@@ -234,11 +306,25 @@ class _MarketTab extends StatelessWidget {
           decoration: InputDecoration(
             hintText: 'Intent: "Google SWE behavioral 2026"',
             prefixIcon: const Icon(Icons.search),
-            suffixIcon: FilledButton(onPressed: () {}, child: const Text('Discover')),
+            suffixIcon: FilledButton(
+              onPressed: screenshotDemo ? null : _discover,
+              child: const Text('Discover'),
+            ),
           ),
         ),
         const SizedBox(height: 16),
-        ..._listings.map((l) => _MarketListingCard(listing: l)),
+        if (_loading) const LinearProgressIndicator(),
+        if (_error != null)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 12),
+            child: Text(_error!, style: theme.textTheme.bodySmall),
+          ),
+        if (listings.isEmpty && !screenshotDemo && !_loading)
+          Text(
+            'No listings yet. Connect wallet and run Discover against the hub.',
+            style: theme.textTheme.bodyMedium,
+          ),
+        ...listings.map((l) => _MarketListingCard(listing: l)),
       ],
     );
   }
@@ -302,17 +388,37 @@ class _MarketListingCard extends StatelessWidget {
 }
 
 class _HistoryTab extends StatelessWidget {
-  const _HistoryTab();
+  const _HistoryTab({required this.sessions});
 
-  static const _sessions = [
-    _SessionRow(company: 'Google', role: 'SWE L4', score: 4.5, spent: 0.40, date: 'May 19'),
-    _SessionRow(company: 'Stripe', role: 'Backend', score: 4.0, spent: 0.25, date: 'May 17'),
-    _SessionRow(company: 'Meta', role: 'PM', score: 3.8, spent: 0.32, date: 'May 14'),
-  ];
+  final List<MockInterviewSession> sessions;
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final rows = screenshotDemo
+        ? ScreenshotSeed.historySessions
+            .map(
+              (s) => _SessionRow(
+                company: s.company,
+                role: s.role,
+                score: s.score,
+                spent: s.spent,
+                date: s.date,
+              ),
+            )
+            .toList()
+        : sessions
+            .where((s) => s.isComplete)
+            .map(
+              (s) => _SessionRow(
+                company: s.company,
+                role: s.role,
+                score: (s.averageScore ?? 0) * 5,
+                spent: s.spentUsd,
+                date: _formatDate(s.completedAt ?? s.startedAt),
+              ),
+            )
+            .toList();
     return ListView(
       padding: const EdgeInsets.all(16),
       children: [
@@ -321,7 +427,12 @@ class _HistoryTab extends StatelessWidget {
         Text('Bill of Materials and TEE receipts for every invoke.',
             style: theme.textTheme.bodyMedium?.copyWith(color: theme.colorScheme.onSurfaceVariant)),
         const SizedBox(height: 16),
-        ..._sessions.map((s) => Card(
+        if (rows.isEmpty)
+          Text(
+            'Complete a mock interview to see session history here.',
+            style: theme.textTheme.bodyMedium,
+          ),
+        ...rows.map((s) => Card(
               margin: const EdgeInsets.only(bottom: 8),
               child: ListTile(
                 leading: CircleAvatar(child: Text(s.company[0])),
@@ -355,15 +466,23 @@ class _SessionRow {
 class _CommunityTab extends StatelessWidget {
   const _CommunityTab();
 
-  static const _contributors = [
-    _Contributor(name: 'alex_prep', contributions: 42, earned: 18.40),
-    _Contributor(name: 'career_ninja', contributions: 37, earned: 15.20),
-    _Contributor(name: 'offer_hunter', contributions: 29, earned: 11.80),
-  ];
-
   @override
   Widget build(BuildContext context) {
+    if (!screenshotDemo) {
+      return Center(
+        child: Padding(
+          padding: const EdgeInsets.all(24),
+          child: Text(
+            'Publish anonymized trajectories after a mock interview session.',
+            textAlign: TextAlign.center,
+            style: Theme.of(context).textTheme.bodyLarge,
+          ),
+        ),
+      );
+    }
+
     final theme = Theme.of(context);
+    final contributors = ScreenshotSeed.contributors;
     return ListView(
       padding: const EdgeInsets.all(16),
       children: [
@@ -399,7 +518,7 @@ class _CommunityTab extends StatelessWidget {
         const SizedBox(height: 16),
         Text('Top contributors this week', style: theme.textTheme.titleMedium),
         const SizedBox(height: 8),
-        ..._contributors.asMap().entries.map((e) {
+        ...contributors.asMap().entries.map((e) {
           final c = e.value;
           return ListTile(
             leading: CircleAvatar(child: Text('${e.key + 1}')),
@@ -411,14 +530,6 @@ class _CommunityTab extends StatelessWidget {
       ],
     );
   }
-}
-
-class _Contributor {
-  final String name;
-  final int contributions;
-  final double earned;
-
-  const _Contributor({required this.name, required this.contributions, required this.earned});
 }
 
 class _HeroStatRow extends StatelessWidget {
@@ -459,4 +570,39 @@ class _StatChip {
   final IconData icon;
 
   const _StatChip({required this.label, required this.value, required this.icon});
+}
+
+class _PrepStats {
+  const _PrepStats(this.readiness, this.streak, this.practiceAvg);
+  final String readiness;
+  final String streak;
+  final String practiceAvg;
+}
+
+_PrepStats _statsForDisplay(List<MockInterviewSession> sessions) {
+  if (screenshotDemo) {
+    return const _PrepStats(
+      ScreenshotSeed.readiness,
+      ScreenshotSeed.streak,
+      ScreenshotSeed.practiceAvg,
+    );
+  }
+  if (sessions.isEmpty) {
+    return const _PrepStats('—', '—', '—');
+  }
+  final completed = sessions.where((s) => s.averageScore != null).toList();
+  final avg = completed.isEmpty
+      ? null
+      : completed.map((s) => s.averageScore!).reduce((a, b) => a + b) /
+          completed.length;
+  return _PrepStats(
+    completed.isEmpty ? '—' : '${((avg ?? 0) * 100).round()}%',
+    '${sessions.length}d',
+    avg == null ? '—' : (avg * 5).toStringAsFixed(1),
+  );
+}
+
+String _formatDate(DateTime dt) {
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  return '${months[dt.month - 1]} ${dt.day}';
 }
