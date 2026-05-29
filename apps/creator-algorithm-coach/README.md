@@ -2,17 +2,9 @@
 
 > **Ecosystem:** [AICOM overview & live demos](https://alexar76.github.io/aicom/)
 
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg)](LICENSE)
 
 **Flutter desktop app** for TikTok, YouTube, Instagram, and X/Twitter algorithm optimization. Buys weekly-updated algorithm signals by platform, trend windows, and optimal posting times by niche. Sells verified hook/structure conversion data backed by TEE-proven metrics.
-
-## Value in plain words
-
-Creators see what TikTok, YouTube, and Instagram algorithms reward in their niche this week — not generic advice from a blog. Buy signal packs; optionally share anonymous metrics to earn credits.
-
-Full text: [docs/value.md](docs/value.md)
-
 
 ## The Problem
 

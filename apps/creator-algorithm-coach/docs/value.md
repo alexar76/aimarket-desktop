@@ -1,10 +1,10 @@
-# Creator Algorithm Coach — Value in plain words
+# Creator Algorithm Coach — Value
 
 ## English
 
 Creators see what TikTok, YouTube, and Instagram algorithms reward in their niche this week — not generic advice from a blog. Buy signal packs; optionally share anonymous metrics to earn credits.
 
-## Русский (простыми словами)
+## Русский
 
 Авторы видят, что алгоритмы TikTok, YouTube и Instagram поощряют в их нише на этой неделе — не общие советы из блога. Покупаете пакеты сигналов; при желании делитесь анонимной статистикой за кредиты.
 

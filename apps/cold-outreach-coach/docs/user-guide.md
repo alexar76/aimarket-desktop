@@ -1,9 +1,5 @@
 # Cold Outreach Coach — User Guide
 
-## Why it matters (plain words)
-
-Your cold emails get better deliverability and reply rates. The app checks structure and rules locally; you buy fresh SPF/DKIM and tone rules from the market without sending your letter text to strangers.
-
 ## What this product does
 
 B2B email optimization with decentralized deliverability rules. Tier 2 — Sales enablement.
@@ -42,7 +38,6 @@ See product README and `docs/architecture.md`. Local-first apps keep sensitive c
 
 ## More
 
-- [Value in plain words](value.md)
 - [User cases](user-cases.md)
 - [SDK integration](sdk-integration.md)
 - [Architecture](architecture.md)

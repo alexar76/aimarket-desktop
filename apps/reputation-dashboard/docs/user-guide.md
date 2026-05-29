@@ -1,9 +1,5 @@
 # Reputation Dashboard — User Guide
 
-## Why it matters (plain words)
-
-Buyers see which AI capabilities are trustworthy — like reviews for apps, but tied to real purchases and receipts. Sellers earn trust with stake; curators flag abuse. Less scam, more informed spending.
-
 ## What this product does
 
 Yelp for aimarket — verified capability ratings. Tier 5 — Meta trust layer.
@@ -42,7 +38,6 @@ See product README and `docs/architecture.md`. Local-first apps keep sensitive c
 
 ## More
 
-- [Value in plain words](value.md)
 - [User cases](user-cases.md)
 - [SDK integration](sdk-integration.md)
 - [Architecture](architecture.md)

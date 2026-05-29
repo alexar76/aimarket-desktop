@@ -1,9 +1,5 @@
 # Personal Finance Coach — User Guide
 
-## Why it matters (plain words)
-
-Your bank data stays on your machine — not in someone else's cloud — while you still use smart categorization and tax rules bought from the marketplace. You keep privacy and get AI help with money.
-
 ## What this product does
 
 Local-first finance intelligence with marketplace tax rules. Tier 2 — Privacy-first consumer.
@@ -42,7 +38,6 @@ See product README and `docs/architecture.md`. Local-first apps keep sensitive c
 
 ## More
 
-- [Value in plain words](value.md)
 - [User cases](user-cases.md)
 - [SDK integration](sdk-integration.md)
 - [Architecture](architecture.md)

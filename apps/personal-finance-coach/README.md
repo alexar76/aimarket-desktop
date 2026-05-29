@@ -2,15 +2,7 @@
 
 > **Ecosystem:** [AICOM overview & live demos](https://alexar76.github.io/aicom/)
 
-
 **Local-first financial intelligence. Your bank statements never leave your machine.**
-
-## Value in plain words
-
-Your bank data stays on your machine — not in someone else's cloud — while you still use smart categorization and tax rules bought from the marketplace. You keep privacy and get AI help with money.
-
-Full text: [docs/value.md](docs/value.md)
-
 
 ## Why
 

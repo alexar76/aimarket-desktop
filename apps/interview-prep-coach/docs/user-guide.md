@@ -1,9 +1,5 @@
 # Interview Prep Coach — User Guide
 
-## Why it matters (plain words)
-
-You get interview questions that are actually fresh — from this week, for your target company — instead of stale forum posts. Pay a few cents per question bank instead of a $500 course. Your practice answers stay on your computer; you only share anonymized patterns if you choose to sell them.
-
 ## What this product does
 
 Company-specific interview banks with marketplace freshness. Tier 1 — Flagship consumer.
@@ -42,7 +38,6 @@ See product README and `docs/architecture.md`. Local-first apps keep sensitive c
 
 ## More
 
-- [Value in plain words](value.md)
 - [User cases](user-cases.md)
 - [SDK integration](sdk-integration.md)
 - [Architecture](architecture.md)

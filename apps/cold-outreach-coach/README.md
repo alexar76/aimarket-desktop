@@ -2,17 +2,9 @@
 
 > **Ecosystem:** [AICOM overview & live demos](https://alexar76.github.io/aicom/)
 
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg)](LICENSE)
 
 **Flutter desktop app** for B2B sales reps, freelancers, and recruiters who send cold emails and DMs. Optimizes every message for deliverability and reply rate — without ever sharing your email content.
-
-## Value in plain words
-
-Your cold emails get better deliverability and reply rates. The app checks structure and rules locally; you buy fresh SPF/DKIM and tone rules from the market without sending your letter text to strangers.
-
-Full text: [docs/value.md](docs/value.md)
-
 
 ## Promo video
 

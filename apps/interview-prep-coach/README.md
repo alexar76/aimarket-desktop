@@ -2,19 +2,11 @@
 
 > **Ecosystem:** [AICOM overview & live demos](https://alexar76.github.io/aicom/)
 
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg)](LICENSE)
 [![Flutter](https://img.shields.io/badge/Flutter-3.11+-blue)](https://flutter.dev)
 [![AI Market Protocol](https://img.shields.io/badge/AI%20Market-v2-purple)](https://github.com/alexar76/aimarket-sdks)
 
 **Flutter desktop app** for interview preparation powered by the AI Market decentralized protocol. Access company-specific question banks, behavioral patterns, and real-time "what was asked this week" signals — all through an open marketplace economy.
-
-## Value in plain words
-
-You get interview questions that are actually fresh — from this week, for your target company — instead of stale forum posts. Pay a few cents per question bank instead of a $500 course. Your practice answers stay on your computer; you only share anonymized patterns if you choose to sell them.
-
-Full text: [docs/value.md](docs/value.md)
-
 
 ## Promo video
 

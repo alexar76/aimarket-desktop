@@ -1,9 +1,5 @@
 # Capability Composer — User Guide
 
-## Why it matters (plain words)
-
-You visually connect AI building blocks into a pipeline — like Lego for AI services — without writing integration code. Test it, run it with one wallet, and sell your pipeline as a template to others.
-
 ## What this product does
 
 Visual pipeline builder for AI Market capabilities. Tier 3 — Builder tool.
@@ -42,7 +38,6 @@ See product README and `docs/architecture.md`. Local-first apps keep sensitive c
 
 ## More
 
-- [Value in plain words](value.md)
 - [User cases](user-cases.md)
 - [SDK integration](sdk-integration.md)
 - [Architecture](architecture.md)

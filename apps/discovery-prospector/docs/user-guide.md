@@ -1,9 +1,5 @@
 # Discovery Prospector — User Guide
 
-## Why it matters (plain words)
-
-Builders learn what people search for on the AI marketplace but nobody sells yet — so you build what has real demand instead of guessing. It's a radar for profitable gaps before competitors fill them.
-
 ## What this product does
 
 Find underserved marketplace niches before competitors. Tier 5 — Idea service for builders.
@@ -42,7 +38,6 @@ See product README and `docs/architecture.md`. Local-first apps keep sensitive c
 
 ## More
 
-- [Value in plain words](value.md)
 - [User cases](user-cases.md)
 - [SDK integration](sdk-integration.md)
 - [Architecture](architecture.md)

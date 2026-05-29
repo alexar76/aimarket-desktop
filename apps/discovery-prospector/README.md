@@ -2,19 +2,11 @@
 
 > **Ecosystem:** [AICOM overview & live demos](https://alexar76.github.io/aicom/)
 
-
 **Tier 5 — Idea Service for Marketplace Builders**
 
 A desktop dashboard where third-party developers discover underserved niches in the AI Market ecosystem. Discovery Prospector buys aggregated search and purchase telemetry from the hub, runs gap detection algorithms, and sells actionable niche insights back to developers — telling them exactly what to build next.
 
 > "No one sells ATS rules for Greenhouse? Go build it. Here's the demand data to prove it's worth your time."
-
-## Value in plain words
-
-Builders learn what people search for on the AI marketplace but nobody sells yet — so you build what has real demand instead of guessing. It's a radar for profitable gaps before competitors fill them.
-
-Full text: [docs/value.md](docs/value.md)
-
 
 ## Promo video
 

@@ -2,19 +2,11 @@
 
 > **Ecosystem:** [AICOM overview & live demos](https://alexar76.github.io/aicom/)
 
-
 **Tier 5 Meta-Product — "Yelp for aimarket"**
 
 A Flutter desktop application (macOS / Windows / Linux) that brings transparency to the AI
 Marketplace. Users see honest, verified ratings and reviews for every capability they have
 purchased, aggregated from on-chain reputation events recorded by the `reputation` plugin.
-
-## Value in plain words
-
-Buyers see which AI capabilities are trustworthy — like reviews for apps, but tied to real purchases and receipts. Sellers earn trust with stake; curators flag abuse. Less scam, more informed spending.
-
-Full text: [docs/value.md](docs/value.md)
-
 
 ## Promo video
 

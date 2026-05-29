@@ -1,9 +1,5 @@
 # Freelance Contract Reviewer — User Guide
 
-## Why it matters (plain words)
-
-Freelancers read client contracts on their own computer before signing. For a few dollars you invoke jurisdiction-specific clause libraries instead of paying a lawyer hundreds for a simple MSA review.
-
 ## What this product does
 
 Local contract parsing with marketplace clause libraries. Tier 2 — Legal/freelance.
@@ -42,7 +38,6 @@ See product README and `docs/architecture.md`. Local-first apps keep sensitive c
 
 ## More
 
-- [Value in plain words](value.md)
 - [User cases](user-cases.md)
 - [SDK integration](sdk-integration.md)
 - [Architecture](architecture.md)

@@ -1,9 +1,5 @@
 # Creator Algorithm Coach — User Guide
 
-## Why it matters (plain words)
-
-Creators see what TikTok, YouTube, and Instagram algorithms reward in their niche this week — not generic advice from a blog. Buy signal packs; optionally share anonymous metrics to earn credits.
-
 ## What this product does
 
 TikTok/YouTube/IG algorithm signals by niche. Tier 2 — Creator economy.
@@ -42,7 +38,6 @@ See product README and `docs/architecture.md`. Local-first apps keep sensitive c
 
 ## More
 
-- [Value in plain words](value.md)
 - [User cases](user-cases.md)
 - [SDK integration](sdk-integration.md)
 - [Architecture](architecture.md)
