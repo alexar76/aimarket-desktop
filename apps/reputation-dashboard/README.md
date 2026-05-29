@@ -13,8 +13,6 @@ purchased, aggregated from on-chain reputation events recorded by the `reputatio
 
 Buyers see which AI capabilities are trustworthy — like reviews for apps, but tied to real purchases and receipts. Sellers earn trust with stake; curators flag abuse. Less scam, more informed spending.
 
-**Простыми словами:** Покупатели видят, каким AI-сервисам можно доверять — как отзывы к приложениям, но привязанные к реальным покупкам и чекам. Продавцы копят репутацию; модераторы отсекают злоупотребления. Меньше обмана — больше осознанных трат.
-
 Full text: [docs/value.md](docs/value.md)
 
 
@@ -23,7 +21,7 @@ Full text: [docs/value.md](docs/value.md)
 Watch the product walkthrough (Playwright capture from factory pipeline):
 
 - **Latest clip:** [`docs/gallery/promo-latest.webm`](../docs/gallery/promo-latest.webm) *(generated on shipped builds)*
-- **Record locally:** `./scripts/run_web_demo.sh` then open Admin → Витрина демo
+- **Record locally:** `./scripts/run_web_demo.sh` then open Admin → Demo Storefront
 
 ## Screenshot gallery
 

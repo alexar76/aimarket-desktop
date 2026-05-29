@@ -4,8 +4,6 @@
 
 Your bank data stays on your machine — not in someone else's cloud — while you still use smart categorization and tax rules bought from the marketplace. You keep privacy and get AI help with money.
 
-**Простыми словами:** Данные банка остаются на вашем компьютере — не в чужом облаке — а умные категории и налоговые правила вы покупаете на маркетплейсе. Приватность сохраняется, помощь с деньгами — тоже.
-
 ## What this product does
 
 Local-first finance intelligence with marketplace tax rules. Tier 2 — Privacy-first consumer.

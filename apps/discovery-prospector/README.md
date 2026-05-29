@@ -13,8 +13,6 @@ A desktop dashboard where third-party developers discover underserved niches in 
 
 Builders learn what people search for on the AI marketplace but nobody sells yet — so you build what has real demand instead of guessing. It's a radar for profitable gaps before competitors fill them.
 
-**Простыми словами:** Разработчики видят, что люди ищут на AI-маркетплейсе, но никто не продаёт — можно строить то, на что есть спрос, а не гадать. Это радар прибыльных ниш до того, как их займут конкуренты.
-
 Full text: [docs/value.md](docs/value.md)
 
 
@@ -23,7 +21,7 @@ Full text: [docs/value.md](docs/value.md)
 Watch the product walkthrough (Playwright capture from factory pipeline):
 
 - **Latest clip:** [`docs/gallery/promo-latest.webm`](../docs/gallery/promo-latest.webm) *(generated on shipped builds)*
-- **Record locally:** `./scripts/run_web_demo.sh` then open Admin → Витрина демo
+- **Record locally:** `./scripts/run_web_demo.sh` then open Admin → Demo Storefront
 
 ## Screenshot gallery
 

@@ -11,8 +11,6 @@
 
 Your cold emails get better deliverability and reply rates. The app checks structure and rules locally; you buy fresh SPF/DKIM and tone rules from the market without sending your letter text to strangers.
 
-**Простыми словами:** Холодные письма чаще попадают во входящие и получают ответы. Приложение проверяет структуру локально; правила доставки и тона покупаете на маркетплейсе, не отдавая текст письма посторонним.
-
 Full text: [docs/value.md](docs/value.md)
 
 
@@ -21,7 +19,7 @@ Full text: [docs/value.md](docs/value.md)
 Watch the product walkthrough (Playwright capture from factory pipeline):
 
 - **Latest clip:** [`docs/gallery/promo-latest.webm`](../docs/gallery/promo-latest.webm) *(generated on shipped builds)*
-- **Record locally:** `./scripts/run_web_demo.sh` then open Admin → Витрина демo
+- **Record locally:** `./scripts/run_web_demo.sh` then open Admin → Demo Storefront
 
 ## Screenshot gallery
 

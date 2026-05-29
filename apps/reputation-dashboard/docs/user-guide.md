@@ -4,8 +4,6 @@
 
 Buyers see which AI capabilities are trustworthy — like reviews for apps, but tied to real purchases and receipts. Sellers earn trust with stake; curators flag abuse. Less scam, more informed spending.
 
-**Простыми словами:** Покупатели видят, каким AI-сервисам можно доверять — как отзывы к приложениям, но привязанные к реальным покупкам и чекам. Продавцы копят репутацию; модераторы отсекают злоупотребления. Меньше обмана — больше осознанных трат.
-
 ## What this product does
 
 Yelp for aimarket — verified capability ratings. Tier 5 — Meta trust layer.

@@ -11,8 +11,6 @@ A Flutter desktop app (macOS / Windows / Linux) that lets freelancers review cli
 
 Freelancers read client contracts on their own computer before signing. For a few dollars you invoke jurisdiction-specific clause libraries instead of paying a lawyer hundreds for a simple MSA review.
 
-**Простыми словами:** Фрилансеры читают договор клиента на своём компьютере до подписи. За несколько долларов вызываете библиотеки пунктов под вашу юрисдикцию вместо сотен долларов юристу за простой договор.
-
 Full text: [docs/value.md](docs/value.md)
 
 
@@ -27,7 +25,7 @@ The Freelance Contract Reviewer makes that $5 check fast, private, and trustable
 Watch the product walkthrough (Playwright capture from factory pipeline):
 
 - **Latest clip:** [`docs/gallery/promo-latest.webm`](../docs/gallery/promo-latest.webm) *(generated on shipped builds)*
-- **Record locally:** `./scripts/run_web_demo.sh` then open Admin → Витрина демo
+- **Record locally:** `./scripts/run_web_demo.sh` then open Admin → Demo Storefront
 
 ## Screenshot gallery
 

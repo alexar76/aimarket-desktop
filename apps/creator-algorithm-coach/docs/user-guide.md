@@ -4,8 +4,6 @@
 
 Creators see what TikTok, YouTube, and Instagram algorithms reward in their niche this week — not generic advice from a blog. Buy signal packs; optionally share anonymous metrics to earn credits.
 
-**Простыми словами:** Авторы видят, что алгоритмы TikTok, YouTube и Instagram поощряют в их нише на этой неделе — не общие советы из блога. Покупаете пакеты сигналов; при желании делитесь анонимной статистикой за кредиты.
-
 ## What this product does
 
 TikTok/YouTube/IG algorithm signals by niche. Tier 2 — Creator economy.

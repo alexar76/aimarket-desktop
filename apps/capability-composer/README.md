@@ -11,8 +11,6 @@ Capability Composer is a Flutter desktop app (macOS / Windows / Linux) that lets
 
 You visually connect AI building blocks into a pipeline — like Lego for AI services — without writing integration code. Test it, run it with one wallet, and sell your pipeline as a template to others.
 
-**Простыми словами:** Вы собираете AI-блоки в цепочку на холсте — как конструктор — без написания интеграционного кода. Проверяете, запускаете с одним кошельком и можете продать свой пайплайн как шаблон.
-
 Full text: [docs/value.md](docs/value.md)
 
 
@@ -21,7 +19,7 @@ Full text: [docs/value.md](docs/value.md)
 Watch the product walkthrough (Playwright capture from factory pipeline):
 
 - **Latest clip:** [`docs/gallery/promo-latest.webm`](../docs/gallery/promo-latest.webm) *(generated on shipped builds)*
-- **Record locally:** `./scripts/run_web_demo.sh` then open Admin → Витрина демo
+- **Record locally:** `./scripts/run_web_demo.sh` then open Admin → Demo Storefront
 
 ## Screenshot gallery
 

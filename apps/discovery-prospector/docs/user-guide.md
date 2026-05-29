@@ -4,8 +4,6 @@
 
 Builders learn what people search for on the AI marketplace but nobody sells yet — so you build what has real demand instead of guessing. It's a radar for profitable gaps before competitors fill them.
 
-**Простыми словами:** Разработчики видят, что люди ищут на AI-маркетплейсе, но никто не продаёт — можно строить то, на что есть спрос, а не гадать. Это радар прибыльных ниш до того, как их займут конкуренты.
-
 ## What this product does
 
 Find underserved marketplace niches before competitors. Tier 5 — Idea service for builders.

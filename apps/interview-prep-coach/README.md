@@ -13,8 +13,6 @@
 
 You get interview questions that are actually fresh — from this week, for your target company — instead of stale forum posts. Pay a few cents per question bank instead of a $500 course. Your practice answers stay on your computer; you only share anonymized patterns if you choose to sell them.
 
-**Простыми словами:** Вы получаете актуальные вопросы с собеседований — за эту неделю, под вашу компанию — а не устаревшие посты с форумов. Платите копейки за банк вопросов вместо курса за $500. Ответы при практике остаются на вашем компьютере; в маркетплейс уходят только обезличенные паттерны, если вы сами решите их продать.
-
 Full text: [docs/value.md](docs/value.md)
 
 
@@ -23,7 +21,7 @@ Full text: [docs/value.md](docs/value.md)
 Watch the product walkthrough (Playwright capture from factory pipeline):
 
 - **Latest clip:** [`docs/gallery/promo-latest.webm`](../docs/gallery/promo-latest.webm) *(generated on shipped builds)*
-- **Record locally:** `./scripts/run_web_demo.sh` then open Admin → Витрина демo
+- **Record locally:** `./scripts/run_web_demo.sh` then open Admin → Demo Storefront
 
 ## Screenshot gallery
 

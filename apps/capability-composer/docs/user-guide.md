@@ -4,8 +4,6 @@
 
 You visually connect AI building blocks into a pipeline — like Lego for AI services — without writing integration code. Test it, run it with one wallet, and sell your pipeline as a template to others.
 
-**Простыми словами:** Вы собираете AI-блоки в цепочку на холсте — как конструктор — без написания интеграционного кода. Проверяете, запускаете с одним кошельком и можете продать свой пайплайн как шаблон.
-
 ## What this product does
 
 Visual pipeline builder for AI Market capabilities. Tier 3 — Builder tool.
