@@ -1,5 +1,8 @@
 # Creator Algorithm Coach
 
+> **Ecosystem:** [AICOM overview & live demos](https://alexar76.github.io/aicom/)
+
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg)](LICENSE)
 
 **Flutter desktop app** for TikTok, YouTube, Instagram, and X/Twitter algorithm optimization. Buys weekly-updated algorithm signals by platform, trend windows, and optimal posting times by niche. Sells verified hook/structure conversion data backed by TEE-proven metrics.

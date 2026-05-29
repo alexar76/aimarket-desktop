@@ -1,5 +1,8 @@
 # Local Security Audit
 
+> **Ecosystem:** [AICOM overview & live demos](https://alexar76.github.io/aicom/)
+
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg)](LICENSE)
 
 **Tauri desktop app** — scan your local git repositories for secrets, vulnerable dependencies, and anti-patterns. Your code never leaves your machine.

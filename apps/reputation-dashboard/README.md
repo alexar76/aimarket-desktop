@@ -1,5 +1,8 @@
 # Reputation Dashboard
 
+> **Ecosystem:** [AICOM overview & live demos](https://alexar76.github.io/aicom/)
+
+
 **Tier 5 Meta-Product — "Yelp for aimarket"**
 
 A Flutter desktop application (macOS / Windows / Linux) that brings transparency to the AI

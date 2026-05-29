@@ -1,5 +1,8 @@
 # Capability Composer
 
+> **Ecosystem:** [AICOM overview & live demos](https://alexar76.github.io/aicom/)
+
+
 **Desktop pipeline builder for the AI Market Protocol — Zapier for aimarket.**
 
 Capability Composer is a Flutter desktop app (macOS / Windows / Linux) that lets you visually discover, chain, and sell AI capabilities from the [AI Market Protocol](https://github.com/alexar76/aimarket) marketplace. It is the Tier 4 meta-product that makes the economy itself more usable.

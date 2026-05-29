@@ -1,5 +1,8 @@
 # Freelance Contract Reviewer
 
+> **Ecosystem:** [AICOM overview & live demos](https://alexar76.github.io/aicom/)
+
+
 **Tier 2 — High privacy value.** Contracts stay on your machine. Period.
 
 A Flutter desktop app (macOS / Windows / Linux) that lets freelancers review client contracts locally, buy jurisdiction-specific clause libraries from the AI Market marketplace, and — if you choose — sell anonymized "which clauses caused disputes" patterns back to the marketplace for passive income.

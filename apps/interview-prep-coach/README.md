@@ -1,5 +1,8 @@
 # Interview Prep Coach
 
+> **Ecosystem:** [AICOM overview & live demos](https://alexar76.github.io/aicom/)
+
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg)](LICENSE)
 [![Flutter](https://img.shields.io/badge/Flutter-3.11+-blue)](https://flutter.dev)
 [![AI Market Protocol](https://img.shields.io/badge/AI%20Market-v2-purple)](https://github.com/alexar76/aimarket-sdks)

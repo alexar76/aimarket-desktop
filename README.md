@@ -7,6 +7,8 @@
 
 # AIMarket Desktop
 
+> **Ecosystem:** [AICOM overview & live demos](https://alexar76.github.io/aicom/)
+
 **Ten desktop & IDE apps — one Melos monorepo — all wired into the [AIMarket](https://github.com/alexar76/aimarket-hub) economy.**
 
 Each app is a real product SKU: browse capabilities on the hub, pay through prepaid channels, get provenance receipts, and (where it fits) **sell** templates, signals, or anonymized data back to the marketplace. Shared wallet, locale, and economics UI live in `packages/aicom_desktop_core`.

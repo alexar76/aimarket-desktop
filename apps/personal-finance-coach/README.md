@@ -1,5 +1,8 @@
 # Personal Finance Coach
 
+> **Ecosystem:** [AICOM overview & live demos](https://alexar76.github.io/aicom/)
+
+
 **Local-first financial intelligence. Your bank statements never leave your machine.**
 
 ## Value in plain words

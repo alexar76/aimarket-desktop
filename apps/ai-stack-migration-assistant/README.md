@@ -1,5 +1,8 @@
 # AI Stack Migration Assistant
 
+> **Ecosystem:** [AICOM overview & live demos](https://alexar76.github.io/aicom/)
+
+
 > **Stop reading changelogs. Let the marketplace do it for you.**
 
 A VSCode/Cursor extension that auto-migrates your AI stack code whenever a major LLM, framework, or embedding model releases a breaking change. Every month a new model drops. Every quarter a framework rewrites its API. You should not have to read every diff.

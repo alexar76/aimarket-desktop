@@ -1,5 +1,8 @@
 # Cold Outreach Coach
 
+> **Ecosystem:** [AICOM overview & live demos](https://alexar76.github.io/aicom/)
+
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg)](LICENSE)
 
 **Flutter desktop app** for B2B sales reps, freelancers, and recruiters who send cold emails and DMs. Optimizes every message for deliverability and reply rate — without ever sharing your email content.
