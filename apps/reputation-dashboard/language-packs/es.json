@@ -1,0 +1,20 @@
+{
+  "@@locale": "es",
+  "appTitle": "Reputation Dashboard",
+  "navTop": "Top",
+  "navReviews": "Reseñas",
+  "navSeller": "Vendedor",
+  "navCurator": "Curador",
+  "titleTop": "Top capacidades",
+  "titleReviews": "Mis reseñas",
+  "titleSeller": "Consola vendedor",
+  "titleCurator": "Consola curador",
+  "settings": "Ajustes",
+  "backupTitle": "Copia de seguridad",
+  "exportBackup": "Exportar reseñas",
+  "importBackup": "Importar reseñas",
+  "backupExported": "Guardado",
+  "backupImported": "Restaurado",
+  "backupFailed": "Error",
+  "moderationQueue": "Cola de moderación"
+}

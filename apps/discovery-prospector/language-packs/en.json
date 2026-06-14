@@ -1,0 +1,13 @@
+{
+  "@@locale": "en",
+  "appTitle": "Discovery Prospector",
+  "settings": "Settings",
+  "backupTitle": "Backup & restore",
+  "exportBackup": "Export gap insights",
+  "importBackup": "Import gap insights",
+  "backupExported": "Backup saved",
+  "backupImported": "Backup restored",
+  "backupFailed": "Backup failed",
+  "refreshTelemetry": "Refresh Telemetry",
+  "gapsFound": "gaps found"
+}
