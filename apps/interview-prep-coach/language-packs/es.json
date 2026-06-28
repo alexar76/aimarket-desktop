@@ -1,0 +1,18 @@
+{
+  "@@locale": "es",
+  "appTitle": "Interview Prep Coach",
+  "navPrep": "Prep",
+  "navMarket": "Mercado",
+  "navHistory": "Historial",
+  "navCommunity": "Comunidad",
+  "settings": "Ajustes",
+  "backupTitle": "Copia de seguridad",
+  "exportBackup": "Exportar datos",
+  "importBackup": "Importar datos",
+  "backupExported": "Copia guardada",
+  "backupImported": "Datos restaurados",
+  "backupFailed": "Error de copia",
+  "todaysPrep": "Prep de hoy",
+  "discoverBanks": "Descubrir bancos de preguntas",
+  "mockInterview": "Entrevista simulada"
+}
