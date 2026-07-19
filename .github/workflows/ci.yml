@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  flutter-build-web:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        app:
+          - apps/interview-prep-coach
+          - apps/personal-finance-coach
+          - apps/capability-composer
+          - apps/cold-outreach-coach
+          - apps/creator-algorithm-coach
+          - apps/discovery-prospector
+          - apps/freelance-contract-reviewer
+          - apps/reputation-dashboard
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch Dart SDK (path dependency)
+        run: |
+          git clone --depth 1 https://github.com/alexar76/aimarket-sdks.git /tmp/aimarket-sdks
+          mkdir -p aimarket-sdks
+          cp -R /tmp/aimarket-sdks/dart aimarket-sdks/dart
+
+      - name: Wire apps/* → packages/ path deps
+        run: |
+          mkdir -p apps/packages
+          ln -sf ../../packages/aicom_desktop_core apps/packages/aicom_desktop_core
+          ln -sf ../../packages/aicom_platform_init apps/packages/aicom_platform_init
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Install dependencies
+        working-directory: ${{ matrix.app }}
+        run: flutter pub get
+
+      - name: Build web
+        working-directory: ${{ matrix.app }}
+        run: flutter build web --release
+
+  coverage-badge:
+    runs-on: ubuntu-latest
+    needs: flutter-build-web
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify coverage badge (no git push)
+        run: bash scripts/ci_static_badge.sh builds pass
