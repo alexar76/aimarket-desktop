@@ -1,0 +1,18 @@
+{
+  "@@locale": "zh",
+  "appTitle": "Interview Prep Coach",
+  "navPrep": "准备",
+  "navMarket": "市场",
+  "navHistory": "历史",
+  "navCommunity": "社区",
+  "settings": "设置",
+  "backupTitle": "备份与恢复",
+  "exportBackup": "导出用户数据到文件",
+  "importBackup": "从文件导入用户数据",
+  "backupExported": "备份已保存",
+  "backupImported": "备份已恢复",
+  "backupFailed": "备份失败",
+  "todaysPrep": "今日准备",
+  "discoverBanks": "发现题库",
+  "mockInterview": "模拟面试"
+}

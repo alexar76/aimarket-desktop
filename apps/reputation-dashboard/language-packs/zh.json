@@ -1,0 +1,20 @@
+{
+  "@@locale": "zh",
+  "appTitle": "Reputation Dashboard",
+  "navTop": "热门",
+  "navReviews": "评价",
+  "navSeller": "卖家",
+  "navCurator": "策展人",
+  "titleTop": "热门能力",
+  "titleReviews": "我的评价",
+  "titleSeller": "卖家控制台",
+  "titleCurator": "策展人控制台",
+  "settings": "设置",
+  "backupTitle": "备份与恢复",
+  "exportBackup": "导出评价和偏好",
+  "importBackup": "导入评价和偏好",
+  "backupExported": "备份已保存",
+  "backupImported": "备份已恢复",
+  "backupFailed": "备份失败",
+  "moderationQueue": "审核队列"
+}

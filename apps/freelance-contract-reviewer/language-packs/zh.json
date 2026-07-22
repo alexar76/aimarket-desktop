@@ -1,0 +1,16 @@
+{
+  "@@locale": "zh",
+  "appTitle": "Freelance Contract Reviewer",
+  "navDashboard": "仪表板",
+  "navUpload": "上传",
+  "navMarketplace": "交易市场",
+  "navSettings": "设置",
+  "settings": "设置",
+  "backupTitle": "备份与恢复",
+  "exportBackup": "导出合同和评审",
+  "importBackup": "导入合同和评审",
+  "backupExported": "备份已保存",
+  "backupImported": "备份已恢复",
+  "backupFailed": "备份失败",
+  "uploadContract": "上传合同"
+}
