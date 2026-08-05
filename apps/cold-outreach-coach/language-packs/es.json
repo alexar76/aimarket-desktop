@@ -1,0 +1,16 @@
+{
+  "@@locale": "es",
+  "appTitle": "Cold Outreach Coach",
+  "navDashboard": "Panel",
+  "navComposer": "Compositor",
+  "navDeliverability": "Entregabilidad",
+  "navAnalytics": "Analítica",
+  "navMarketplace": "Mercado",
+  "settings": "Ajustes",
+  "backupTitle": "Copia de seguridad",
+  "exportBackup": "Exportar campañas",
+  "importBackup": "Importar campañas",
+  "backupExported": "Guardado",
+  "backupImported": "Restaurado",
+  "backupFailed": "Error"
+}

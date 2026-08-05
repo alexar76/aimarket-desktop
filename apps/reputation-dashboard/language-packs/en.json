@@ -1,0 +1,20 @@
+{
+  "@@locale": "en",
+  "appTitle": "Reputation Dashboard",
+  "navTop": "Top",
+  "navReviews": "Reviews",
+  "navSeller": "Seller",
+  "navCurator": "Curator",
+  "titleTop": "Top Capabilities",
+  "titleReviews": "My Reviews",
+  "titleSeller": "Seller Console",
+  "titleCurator": "Curator Console",
+  "settings": "Settings",
+  "backupTitle": "Backup & restore",
+  "exportBackup": "Export reviews & prefs",
+  "importBackup": "Import reviews & prefs",
+  "backupExported": "Backup saved",
+  "backupImported": "Backup restored",
+  "backupFailed": "Backup failed",
+  "moderationQueue": "Moderation queue"
+}
