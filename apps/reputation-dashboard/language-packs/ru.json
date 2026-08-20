@@ -1,0 +1,20 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Reputation Dashboard",
+  "navTop": "Топ",
+  "navReviews": "Отзывы",
+  "navSeller": "Продавец",
+  "navCurator": "Куратор",
+  "titleTop": "Топ возможностей",
+  "titleReviews": "Мои отзывы",
+  "titleSeller": "Консоль продавца",
+  "titleCurator": "Консоль куратора",
+  "settings": "Настройки",
+  "backupTitle": "Резервное копирование",
+  "exportBackup": "Экспорт отзывов",
+  "importBackup": "Импорт отзывов",
+  "backupExported": "Сохранено",
+  "backupImported": "Восстановлено",
+  "backupFailed": "Ошибка",
+  "moderationQueue": "Очередь модерации"
+}

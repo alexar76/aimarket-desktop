@@ -1,0 +1,14 @@
+{
+  "@@locale": "es",
+  "appTitle": "Capability Composer",
+  "navCanvas": "Lienzo",
+  "navDiscover": "Descubrir",
+  "navTemplates": "Plantillas",
+  "settings": "Ajustes",
+  "backupTitle": "Copia de seguridad",
+  "exportBackup": "Exportar pipelines",
+  "importBackup": "Importar pipelines",
+  "backupExported": "Guardado",
+  "backupImported": "Restaurado",
+  "backupFailed": "Error"
+}

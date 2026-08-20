@@ -1,0 +1,17 @@
+{
+  "@@locale": "en",
+  "appTitle": "Finance Coach",
+  "navOverview": "Overview",
+  "navImport": "Import",
+  "navMarketplace": "Marketplace",
+  "navPrivacy": "Privacy",
+  "settings": "Settings",
+  "backupTitle": "Backup & restore",
+  "exportBackup": "Export user data to file",
+  "importBackup": "Import user data from file",
+  "backupExported": "Backup saved",
+  "backupImported": "Backup restored",
+  "backupFailed": "Backup failed",
+  "financialOverview": "Financial Overview",
+  "privacyNeverLeaves": "Your bank data never leaves this device."
+}

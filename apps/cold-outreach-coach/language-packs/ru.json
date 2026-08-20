@@ -1,0 +1,16 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Cold Outreach Coach",
+  "navDashboard": "Дашборд",
+  "navComposer": "Редактор",
+  "navDeliverability": "Доставляемость",
+  "navAnalytics": "Аналитика",
+  "navMarketplace": "Маркетплейс",
+  "settings": "Настройки",
+  "backupTitle": "Резервное копирование",
+  "exportBackup": "Экспорт кампаний",
+  "importBackup": "Импорт кампаний",
+  "backupExported": "Сохранено",
+  "backupImported": "Восстановлено",
+  "backupFailed": "Ошибка"
+}

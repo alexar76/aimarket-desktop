@@ -1,0 +1,14 @@
+{
+  "@@locale": "zh",
+  "appTitle": "Capability Composer",
+  "navCanvas": "画布",
+  "navDiscover": "发现",
+  "navTemplates": "模板",
+  "settings": "设置",
+  "backupTitle": "备份与恢复",
+  "exportBackup": "导出流水线到文件",
+  "importBackup": "从文件导入流水线",
+  "backupExported": "备份已保存",
+  "backupImported": "备份已恢复",
+  "backupFailed": "备份失败"
+}

@@ -1,0 +1,18 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Interview Prep Coach",
+  "navPrep": "Подготовка",
+  "navMarket": "Маркет",
+  "navHistory": "История",
+  "navCommunity": "Сообщество",
+  "settings": "Настройки",
+  "backupTitle": "Резервное копирование",
+  "exportBackup": "Экспорт данных в файл",
+  "importBackup": "Импорт данных из файла",
+  "backupExported": "Копия сохранена",
+  "backupImported": "Данные восстановлены",
+  "backupFailed": "Ошибка копирования",
+  "todaysPrep": "Подготовка сегодня",
+  "discoverBanks": "Найти банки вопросов",
+  "mockInterview": "Mock-собеседование"
+}

@@ -1,0 +1,16 @@
+{
+  "@@locale": "es",
+  "appTitle": "Creator Algorithm Coach",
+  "navDashboard": "Panel",
+  "navDiscover": "Descubrir",
+  "navPublish": "Publicar",
+  "navInsights": "Insights",
+  "navSettings": "Ajustes",
+  "settings": "Ajustes",
+  "backupTitle": "Copia de seguridad",
+  "exportBackup": "Exportar señales",
+  "importBackup": "Importar señales",
+  "backupExported": "Guardado",
+  "backupImported": "Restaurado",
+  "backupFailed": "Error"
+}

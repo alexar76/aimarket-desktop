@@ -1,0 +1,16 @@
+{
+  "@@locale": "en",
+  "appTitle": "Freelance Contract Reviewer",
+  "navDashboard": "Dashboard",
+  "navUpload": "Upload",
+  "navMarketplace": "Marketplace",
+  "navSettings": "Settings",
+  "settings": "Settings",
+  "backupTitle": "Backup & restore",
+  "exportBackup": "Export contracts & reviews",
+  "importBackup": "Import contracts & reviews",
+  "backupExported": "Backup saved",
+  "backupImported": "Backup restored",
+  "backupFailed": "Backup failed",
+  "uploadContract": "Upload a Contract"
+}
