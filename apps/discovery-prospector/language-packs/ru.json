@@ -1,0 +1,13 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Discovery Prospector",
+  "settings": "Настройки",
+  "backupTitle": "Резервное копирование",
+  "exportBackup": "Экспорт инсайтов",
+  "importBackup": "Импорт инсайтов",
+  "backupExported": "Сохранено",
+  "backupImported": "Восстановлено",
+  "backupFailed": "Ошибка",
+  "refreshTelemetry": "Обновить телеметрию",
+  "gapsFound": "ниш найдено"
+}

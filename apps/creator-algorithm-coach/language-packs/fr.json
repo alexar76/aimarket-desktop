@@ -1,0 +1,16 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Creator Algorithm Coach",
+  "navDashboard": "Tableau de bord",
+  "navDiscover": "Découvrir",
+  "navPublish": "Publier",
+  "navInsights": "Aperçus",
+  "navSettings": "Paramètres",
+  "settings": "Paramètres",
+  "backupTitle": "Sauvegarde et restauration",
+  "exportBackup": "Exporter les signaux",
+  "importBackup": "Importer les signaux",
+  "backupExported": "Sauvegardé",
+  "backupImported": "Restauré",
+  "backupFailed": "Échec"
+}

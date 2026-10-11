@@ -1,0 +1,16 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Freelance Contract Reviewer",
+  "navDashboard": "Дашборд",
+  "navUpload": "Загрузка",
+  "navMarketplace": "Маркетплейс",
+  "navSettings": "Настройки",
+  "settings": "Настройки",
+  "backupTitle": "Резервное копирование",
+  "exportBackup": "Экспорт контрактов",
+  "importBackup": "Импорт контрактов",
+  "backupExported": "Сохранено",
+  "backupImported": "Восстановлено",
+  "backupFailed": "Ошибка",
+  "uploadContract": "Загрузить контракт"
+}

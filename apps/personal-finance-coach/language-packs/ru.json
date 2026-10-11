@@ -1,0 +1,17 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Finance Coach",
+  "navOverview": "Обзор",
+  "navImport": "Импорт",
+  "navMarketplace": "Маркетплейс",
+  "navPrivacy": "Приватность",
+  "settings": "Настройки",
+  "backupTitle": "Резервное копирование",
+  "exportBackup": "Экспорт данных",
+  "importBackup": "Импорт данных",
+  "backupExported": "Копия сохранена",
+  "backupImported": "Данные восстановлены",
+  "backupFailed": "Ошибка",
+  "financialOverview": "Финансовый обзор",
+  "privacyNeverLeaves": "Банковские данные не покидают устройство."
+}

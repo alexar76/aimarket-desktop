@@ -1,0 +1,13 @@
+{
+  "@@locale": "es",
+  "appTitle": "Discovery Prospector",
+  "settings": "Ajustes",
+  "backupTitle": "Copia de seguridad",
+  "exportBackup": "Exportar insights",
+  "importBackup": "Importar insights",
+  "backupExported": "Guardado",
+  "backupImported": "Restaurado",
+  "backupFailed": "Error",
+  "refreshTelemetry": "Actualizar telemetría",
+  "gapsFound": "nichos encontrados"
+}

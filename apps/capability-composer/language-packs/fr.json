@@ -1,0 +1,14 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Capability Composer",
+  "navCanvas": "Canevas",
+  "navDiscover": "Découvrir",
+  "navTemplates": "Modèles",
+  "settings": "Paramètres",
+  "backupTitle": "Sauvegarde et restauration",
+  "exportBackup": "Exporter les pipelines",
+  "importBackup": "Importer les pipelines",
+  "backupExported": "Sauvegardé",
+  "backupImported": "Restauré",
+  "backupFailed": "Échec"
+}

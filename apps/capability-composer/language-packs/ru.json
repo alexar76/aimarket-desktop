@@ -1,0 +1,14 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Capability Composer",
+  "navCanvas": "Холст",
+  "navDiscover": "Поиск",
+  "navTemplates": "Шаблоны",
+  "settings": "Настройки",
+  "backupTitle": "Резервное копирование",
+  "exportBackup": "Экспорт пайплайнов",
+  "importBackup": "Импорт пайплайнов",
+  "backupExported": "Сохранено",
+  "backupImported": "Восстановлено",
+  "backupFailed": "Ошибка"
+}

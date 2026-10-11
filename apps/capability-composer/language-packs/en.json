@@ -1,0 +1,14 @@
+{
+  "@@locale": "en",
+  "appTitle": "Capability Composer",
+  "navCanvas": "Canvas",
+  "navDiscover": "Discover",
+  "navTemplates": "Templates",
+  "settings": "Settings",
+  "backupTitle": "Backup & restore",
+  "exportBackup": "Export pipelines to file",
+  "importBackup": "Import pipelines from file",
+  "backupExported": "Backup saved",
+  "backupImported": "Backup restored",
+  "backupFailed": "Backup failed"
+}

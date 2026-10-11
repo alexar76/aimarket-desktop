@@ -1,0 +1,16 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Freelance Contract Reviewer",
+  "navDashboard": "Tableau de bord",
+  "navUpload": "Téléverser",
+  "navMarketplace": "Place de marché",
+  "navSettings": "Paramètres",
+  "settings": "Paramètres",
+  "backupTitle": "Sauvegarde et restauration",
+  "exportBackup": "Exporter les contrats",
+  "importBackup": "Importer les contrats",
+  "backupExported": "Sauvegardé",
+  "backupImported": "Restauré",
+  "backupFailed": "Échec",
+  "uploadContract": "Téléverser un contrat"
+}

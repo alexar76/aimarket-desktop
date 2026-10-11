@@ -1,0 +1,20 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Reputation Dashboard",
+  "navTop": "Top",
+  "navReviews": "Avis",
+  "navSeller": "Vendeur",
+  "navCurator": "Curateur",
+  "titleTop": "Top des capacités",
+  "titleReviews": "Mes avis",
+  "titleSeller": "Console vendeur",
+  "titleCurator": "Console curateur",
+  "settings": "Paramètres",
+  "backupTitle": "Sauvegarde et restauration",
+  "exportBackup": "Exporter les avis",
+  "importBackup": "Importer les avis",
+  "backupExported": "Sauvegardé",
+  "backupImported": "Restauré",
+  "backupFailed": "Échec",
+  "moderationQueue": "File de modération"
+}

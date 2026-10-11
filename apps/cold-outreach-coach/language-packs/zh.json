@@ -1,0 +1,16 @@
+{
+  "@@locale": "zh",
+  "appTitle": "Cold Outreach Coach",
+  "navDashboard": "仪表板",
+  "navComposer": "撰写",
+  "navDeliverability": "送达率",
+  "navAnalytics": "分析",
+  "navMarketplace": "交易市场",
+  "settings": "设置",
+  "backupTitle": "备份与恢复",
+  "exportBackup": "导出营销活动到文件",
+  "importBackup": "从文件导入营销活动",
+  "backupExported": "备份已保存",
+  "backupImported": "备份已恢复",
+  "backupFailed": "备份失败"
+}
