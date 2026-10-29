@@ -1,10 +1,3 @@
-<!-- aicom-mirror-notice -->
-> **🔄 Synced from a monorepo — but with a live history.** `aimarket-desktop` mirrors the
-> canonical AI-Factory monorepo. History here is append-only (no force-push).
-> **Pull requests are welcome** — merged PRs are imported back into the monorepo
-> and re-synced here, so your contribution becomes canonical.
-> 💬 **[Issues](https://github.com/alexar76/aimarket-desktop/issues)** · **[Pull requests](https://github.com/alexar76/aimarket-desktop/pulls)** both welcome.
-
 # AIMarket Desktop
 
 <!-- aicom-readme-badges -->
@@ -15,6 +8,8 @@
 </p>
 <!-- /aicom-readme-badges -->
 
+<!-- aicom-mirror-notice -->
+> 🔄 Synced from the [AI-Factory monorepo](https://github.com/alexar76/aicom) (append-only history). **Pull requests are welcome** — merged PRs are imported back and re-synced here. [Issues](https://github.com/alexar76/aimarket-desktop/issues) · [Pull requests](https://github.com/alexar76/aimarket-desktop/pulls)
 <!-- Screenshot URLs are absolute on purpose. `scripts/mirror_satellites.sh` publishes
      this tree with the layout `desktop-integrations/{app} -> apps/{app}` (see its
      `Layout:` line), so a relative `capability-composer/assets/...` path resolves here
